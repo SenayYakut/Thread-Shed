@@ -19,7 +19,14 @@ git clone https://github.com/SenayYakut/Thread-Shed.git
 ```
 
 ## Usage
-
+```
+for color in colors:
+  num = color_count(color)
+  print("Thread Shed sold {} threads of {} thread today".format(num, color))# Thread Shed sold 24 threads of red thread today
+  
+print(color_count("white")# 28  
+  
+```
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
